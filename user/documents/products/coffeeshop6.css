@@ -1,0 +1,29 @@
+.container{
+	 height: 500px;
+	 border: 2px solid red;
+                 position: relative;
+	 width: 50%;
+                 float: right;
+                }
+img{
+       height: 100px;
+       float: left;
+       }
+.div1{
+        height:100px;
+        width: 120px;
+        background-color: green;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        z-index: 1;
+        }
+.div2{
+         height: 100px;
+         width: 100px;
+         background-color:yellow;
+         position: absolute;
+         top: 0px;
+         left: 10px;
+         z-index: 2;
+         }
